@@ -200,11 +200,6 @@ df = pd.DataFrame({ key:pd.Series(value) for key, value in result.items() })
 print(df)
 df_transposed = df.transpose()
 df_transposed.to_csv("trial-econ-transposed.csv", encoding='utf-8', index=True)
-
-#To-Do:
-    # 1. Search through range of years   --> Done
-
-    # 2. Properly sort the Output, arrange per requirement
     
 print("Done!!")
 
